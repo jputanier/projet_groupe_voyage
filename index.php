@@ -9,7 +9,7 @@
 </head>
 <body>
     <div>
-        <h1>Voyage Voyages</h1>
+        <h1>Vos</h1>
     </div>
     <nav>
         <p>Menu</p>
