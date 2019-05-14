@@ -10,7 +10,7 @@
 </head>
 <body>
     <div>
-        <h1>Voyage Voyages</h1>
+        <h1>Voyage Voaijay</h1>
         <div id="div_logo_user"><a href="/">
             <figure>
                 <i class="fas fa-user logo_user"></i>
