@@ -4,11 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Voyage Voyages</title>
+    <title>Connection</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+    <?php require_once './templates/header.php' ?>
+
+        <div>
+            <p>Pour vous connecter, essayé les logs suivants :</p>
+                <table>
+                    <tr>
+                        <th>Login</th>
+                        <th>Mot de passe</th>
+                    </tr>
+                </table>
+        </div>
+
+<br>
+<form action="./controllers/connection.php" method="POST">
+    <label for="login">Pseudo</label>
+    <input type="text" name="login" >
+
+    <label for="password">Mot de passe</label>
+    <input type="password" name="password" >
+
+    <input type="submit" value="Envoyer">
+</form>
     <div>
         <h1>Voyage Voyages</h1>
         <div id="div_logo_user">
