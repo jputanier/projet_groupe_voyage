@@ -5,13 +5,13 @@
 
 body{
     background-color: rgb(216, 209, 209);
-    margin-left: 10%;
-    margin-right: 10%;
+    /*margin-left: 10%;*/
+    /*margin-right: 10%;*/
     margin-top: 5%;
 }
 
 .marge{
-    margin-top: 10%;
+    /*margin-top: 10%;*/
 }
 
 img{
@@ -21,6 +21,10 @@ img{
 
 footer{
     font-size: 0.8em;
+    background-color: rgb(235, 238, 238);
+    border: 2px solid gray;
+    border-radius: 4px;
+    margin-top: 5%;
 }
 
 .copieR{
@@ -200,5 +204,4 @@ main {
     width: 500px;
     height: 500px;
 }
->>>>>>> 0cfa3858f41454a2703909f807bc707996a37506
 }
