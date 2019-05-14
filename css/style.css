@@ -4,7 +4,25 @@
 }
 
 body{
-    background-image: url("../img/back.jpg");
-    background-repeat: no-repeat;
-    
+    background-color: rgb(216, 209, 209);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+.marge{
+    margin-top: 10%;
+}
+
+img{
+    width: 120%;
+    height: 300px;
+}
+
+footer{
+    font-size: 0.8em;
+}
+
+.copieR{
+    margin-top: -30px !important;
 }
