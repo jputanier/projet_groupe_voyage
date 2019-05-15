@@ -23,7 +23,10 @@
         <input type="text" name="login" >
 
         <label for="password">Mot de passe</label>
-        <input type="password" name="password" >
+        <input type="password" name="password">
+        
+        <label for="mail">E-mail</label>
+        <input type="mail" name="mail">
 
         <input type="submit" value="Envoyer">
     </form>
