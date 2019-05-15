@@ -15,19 +15,47 @@
     <!-- header -->
     <div class="text-center headeR">
         <img src="./img/logo-voayaj.png" alt="logo voayaj">
-    </div>
+    </div>    
+    <?php if(isset($_SESSION['login'])): ?>
+        <?php if($_SESSION['login'] == "login" && $_SESSION['password'] == "pass"): ?>
+            <div id="div_logo_user"><a href="./controllers/deconnection.php">
+                <figure>
+                    <i class="fas fa-user-times logo_user"></i>
+                    <figcaption>Déconnection</figcaption>
+                </figure></a>
+            </div>  
+        <?php else: ?>
+            <div id="div_logo_user"><a href="./login.php">
+                <figure>
+                    <i class="fas fa-user logo_user"></i>
+                    <figcaption>Connection</figcaption>
+                </figure></a>
+            </div>
+        <?php endif ?>
+        <?php else: ?>
+            <div id="div_logo_user"><a href="./login.php">
+                <figure>
+                    <i class="fas fa-user logo_user"></i>
+                    <figcaption>Connection</figcaption>
+                </figure></a>
+            </div>
+        <?php endif ?>
+        <div><a href="/"><img src="./img/ukflag.png" alt="ukflag" class="ukflag"></a></div>
+        <div><a href="/"><img src="./img/frflag.png" alt="frflag" class="frflag"></a></div>
     <!-- nav-bar -->
     <?php require "./templates/header.html"?>
     <!-- main -->
     <main>
         <div id="bloc_page">
-            <div id="bloc1" class="font_kingthings"><a href="/" class="titles">New York<br/>City</a></div>
-            <div id="bloc2" class="font_america"><a href="/" class="titles">* Beyrouth *</a></div>
-            <div id="bloc3" class="font_desyrel"><a href="/" class="titles">San Francisco</a></div>
+            <div id="bloc1" class="font_kingthings"><a href="./contenunewyork.php" class="titles">New York<br/>City</a></div>
+            <div id="bloc2" class="font_america"><a href="./contenubeyrouth.php" class="titles">Beyrouth</a></div>
+            <div id="bloc3" class="font_desyrel"><a href="./contenusanfrancisco" class="titles">San Francisco</a></div>
         </div>
     </main>
     <!-- footer -->
-    <?php require "./templates/footer.html"?>
+    <footer>
+        <?php require "./templates/footer.html"?>
+    </footer>
     <!-- jquery popper bootstrap -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

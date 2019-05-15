@@ -26,6 +26,12 @@ footer{
     margin-bottom: 20px;
 }
 
+/* Page ville */
+article{
+    color: white;
+}
+
+
 @font-face {
     font-family: 'amerikaregular';
     src: url('../fonts/america/AMERIKA_-webfont.eot');

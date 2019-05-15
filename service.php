@@ -10,7 +10,7 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">   
     <!-- css -->
     <link rel="stylesheet" href="./css/style.css">
-    <title>Notre concept</title>
+    <title>Nos services</title>
 </head>
 <body>
     <!-- header -->
@@ -23,26 +23,26 @@
     <main>
         <article>
             <p>
-                VOAYAJ est une agence de voyages spécialisée dans les voyages à la carte. L'idée est de proposer des voyages courts, pour des groupes réduits, vraiment adaptés à vos besoins. Tous les groupes seront accompagnés par un VOYAJEUR (Jérémy, Lakdar, Pascal, Raphaël...), connaissant parfaitement le pays et toutes les subtilités des endroits visités, dans l'optique d'une immersion douce et totale... Les voyages se concentrent essentiellement sur la découverte d'un pays à travers le prisme de la gastronomie, de la culture - particulièrement la culture urbaine - et des lieux emblématiques ayant marqué le pays. Les voyages VOAYAJ sont parfaits pour des escapades entre amoureux pour un week-end dans une ville romantique, pour le plaisir de partir avec des amis et de faire la fête dans des endroits originaux, prestigieux ou inattendus.
+                Nos services sont à la carte : vous choisissisez, nous vous obligeons. Notre valeur ajoutée : l'humain. Grâce à nos VOAJEURS, nous vous assurons un voyage en douceur, sans accroc et en totale immersion : les VOAYAJEURS ont tous une grande connaissance des pays que nous vous proposons de visiter, formé au tourisme et à l'accompagnement des groupes à l'étranger, ils parlent ous plusieurs langues et sauront être discrets, mais toujours disponibles pour vous. Grâce à leurs vécus dans les lieux que vous allez visiter, ils disposent d'un large éventail de personnes-ressources au sein du pays, pour vous emmenez durant tout votre voyage dans les lieux les plus adaptés à vos attentes...
             </p><br>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mauris purus, sagittis vitae nisl id, placerat ullamcorper urna. Aenean a nunc a enim auctor posuere non vel felis. Maecenas ut interdum mi. Aenean aliquam dui quis tristique feugiat. Cras sed risus semper, dictum metus id, tempor eros. Cras consectetur orci nec augue consectetur, sed cursus tortor auctor. Nullam interdum dignissim venenatis. Suspendisse odio eros, pulvinar vitae ex et, ullamcorper dictum justo. Nunc consectetur sagittis augue, at sodales nisl fermentum porta. Donec fermentum gravida augue quis sollicitudin. In hac habitasse platea dictumst. Sed feugiat eros a scelerisque semper.
             </p><br>
             <p>
-                Dans un souci de confort, nous nous occuperons de toutes les démarches administratives liées aux visas, vous n'aurez à vous inquiétez de rien. Votre seul souci : bien choisir votre voyage, les différentes options que nous pouvons vous offir, nous nous occupons de tous le reste !
+                L'option de voyage GASTRONOMIE est centrée sur la découverte d'un pays, d'une ville, à travers sa cuisine, moderne comme traditionnelle, c'est vous qui choisissez. Entre les différents repas, nous pouvons vous proposez des itinéraires de découverte ou vous donnez des listes complètes et mises à jour des différentes activités possibles.
+            </p><br>
+            <p>
+                De la même manière, l'option de voyage CULTURE tourne, elle, autour de la découverte d'un pays, d'une ville, avec comme prisme l'aspect culturel, qu'ils s'agissent d'expositions, de grands musées ou tout simplement de déambulations à travers la ville pour découvrir le street art, la culture urbaine et ses artistes.
+            </p><br>
+            <p>
+                Enfin, l'option de voyage LIEUX permet de découvrir un pays, une ville au travers des grands monuments, des lieux emblématiques ayant marqués l'histoire, qu'il s'agisse de sites archéologiques, de monuments historiques ou tout simplement de la meilleure terrase pour apprécier le coucher du soleil...
+            </p><br>
+                Vous trouverez l'ensemble de nos services sur la page d'accueil, n'hésitez pas à nous contacter - contact@voayaj.com - pour plus d'informations...
             </p><br>
             <p>
                 Merci de nous faire confiance, à très bientôt sur les voyages VOAYAJ ;P
-            </p>
+            </p><br>
         </article>
-    <div class=row>
-        <div class=col-xs-5 col-md-3 col-lg-1 centreVerticalement >
-            <div style=height:10em;border:1px solid red>Big</div>
-            </div><!---->
-            <div class=col-xs-5 col-md-7 col-lg-9 centreVerticalement >
-            <div style=height:3em;border:1px solid #F00>Small</div>
-        </div>
-    </div>
     </main>
     <!-- footer -->
     <?php require "./templates/footer.html"?>
