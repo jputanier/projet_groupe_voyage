@@ -28,5 +28,6 @@
         <input type="submit" value="Envoyer">
     </form>
 </div>
+<?php require "./templates/footer.html"?>
 </body>
 </html>
