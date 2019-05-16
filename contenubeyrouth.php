@@ -21,6 +21,7 @@
         </header>
         <!-- nav-bar -->
         <?php require "./templates/header.html"?>
+        <!-- main -->
         <main id="flex">
             <?php require "./templates/beyrouth.html"?>
             <div>
@@ -44,7 +45,7 @@
                 </p>
             
             
-                <p id="color" id='cuisine'>
+                <p id="color" id="cuisine">
                     Il était déjà fait mention dans la Bible que le pays de Canaan, qui est l’actuel Liban, proposait une gastronomie d’une grande finesse et d’une grande variété grâce à son merveilleux climat méditerranéen, qui lui permet d’avoir tout au long de l’année des fruits et légumes frais en abondance.
 
                     La cuisine libanaise s’est enrichie de saveurs nouvelles venues d'ailleurs et elle a, au fil du temps, affiné les plats basiques, d’origine montagnarde, pour atteindre un grand raffinement.
@@ -61,7 +62,7 @@
                 </p>
             
             
-                <p id="color" id='streetart'>
+                <p id="color" id="streetart">
                     C’est l’un des premiers aperçus de la capitale pour les passagers qui atterrissent à Beyrouth, au Liban. 
                     
                     À quelques centaines de mètres de l’aéroport, un îlot de maisons aux façades multicolores occupent le bord de mer. 
@@ -72,7 +73,7 @@
                 </p>
             
             
-                <p id="color" id='thingstodo'>
+                <p id="color" id="thingstodo">
                     Visiter Beyrouth, c’est un peu comme visiter plusieurs villes, voir plusieurs pays en un ! 
                     
                     En une seule journée, vous passez des magasins de luxe, aux échoppes plus traditionnelles, de quartier chrétien au quartier musulman, puis arménien, de bâtiments tout neufs au bord de la marina aux bâtiments abandonnés, des graffiti, « Crimes Never Ends in Beirut» à des expo contemporaines où les pièces d’art sont faîtes en rouleau de pièce de monnaie, de cafés traditionnels aux bars à cocktail les plus tendances… 
@@ -95,7 +96,7 @@
 
                 </p>
            
-                <p id="color" id='nightlife'>
+                <p id="color" id="nightlife">
                     Beyrouth est une ville dynamique et chaleureuse. 
                     
                     La ville est réputée pour sa vie nocturne, elle héberge de nombreuses discothèques, boîtes de nuit et pubs dans les quartiers Monnot, Verdun, Hamra, Gemmayzé et sur les corniches du bord de mer. 

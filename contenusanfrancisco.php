@@ -21,10 +21,11 @@
         </header>
         <!-- nav-bar -->
         <?php require "./templates/header.html"?>
+        <!-- main -->
         <main id="flex">
             <?php require "./templates/san-francisco.html"?>
             <div>
-                <p id="color" id='overview'>
+                <p id="color" id="overview">
                 San Francisco, officiellement ville et comté de San Francisco (en anglais : City and County of San Francisco), est une ville américaine et un comté de l'État de Californie. 
                 
                 Elle est située à l'extrémité nord de la péninsule de San Francisco, entre l'océan Pacifique à l'ouest et la baie de San Francisco à l'est. 
@@ -55,7 +56,7 @@
                 </p>
            
 
-                <p id="color" id='cuisine'>
+                <p id="color" id="cuisine">
                 Les Californiens, qui ont toujours eu le culte du corps, pratiquent avec conviction le régime eating healthy (manger sain). 
                 
                 Fans de bio (organic), ilssont aussi de plus en plus adeptes de cuisine vegan. 
@@ -76,7 +77,7 @@
                 </p>
             
             
-                <p id="color" id='streetart'>
+                <p id="color" id="streetart">
                 À San Francisco, il n’y a pas besoin d’aller très loin pour en trouver. 
                 
                 Quasiment à chaque coin de rue, on peut tomber sur un graffiti. 
@@ -87,7 +88,7 @@
                 </p>
            
             
-                <p id="color" id='thingstodo'>
+                <p id="color" id="thingstodo">
                 San Francisco fait partie des seules villes américaines à avoir « une âme ». 
                 
                 C’est une ville très européenne qui saura vous séduire très vite. 
@@ -104,7 +105,7 @@
                 </p>
            
             
-                <p id="color" id='nightlife'>
+                <p id="color" id="nightlife">
                 La vie nocturne à San Francisco est aussi animée et variée que la ville elle-même. 
                 
                 Musique live, arts scéniques, boîtes de nuit ou bars à cocktails, quelle que soit votre envie du moment, vous trouverez de nombreux endroits pour vous divertir une fois la nuit tombée. 

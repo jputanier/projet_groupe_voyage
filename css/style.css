@@ -14,7 +14,6 @@ body{
     /*margin-top: 10%;*/
 }
 
-
 #footer{
     display: flex;
     justify-content: space-around;
@@ -23,11 +22,6 @@ body{
     text-align: center;
     background-color: #C5C5C5;
     border-top: 2px solid #AAA;
-}
-
-.copieR{
-    margin-top: -60px !important;
-    margin-bottom: 20px;
 }
 
 /* concept et services */

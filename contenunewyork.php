@@ -79,7 +79,7 @@
                 </p>
             
 
-                <p id="color" id='thingstodo'>
+                <p id="color" id="thingstodo">
                 Comme tout new-yorkais vous le dira, il est impossible de découvrir tous les meilleurs endroits de cette grande et complexe ville, en une seule visite. 
                 
                 Et oui, cela fait partie de l’excitation à visiter New York : il y a toujours quelque chose de nouveau à découvrir. 
@@ -92,7 +92,7 @@
                 </p>
 
 
-                <p id="color" id='nightlife'>
+                <p id="color" id="nightlife">
                 New York est une ville qui ne dort jamais, et vous non plus vous n’allez pas dormir. 
                 
                 Il y a tellement de choses à faire à New York qu’il vous faudra bien la journée et la nuit pour tout voir (et encore en repartant vous n’aurez pas tout vu). 

@@ -15,7 +15,7 @@
     <!-- header -->
     <div class="text-center headeR">
         <img src="./img/logo-voayaj.png" alt="logo voayaj">
-    </div>    
+    </div>
     <?php if(isset($_SESSION['login'])): ?>
         <?php if($_SESSION['login'] == "login" && $_SESSION['password'] == "pass"): ?>
             <div id="div_logo_user"><a href="./controllers/deconnection.php">
