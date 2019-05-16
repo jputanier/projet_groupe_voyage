@@ -10,6 +10,12 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+    <!---->
+    <header>
+        <div class="text-center headeR">
+            <img src="./img/logo-voayaj.png" alt="logo voayaj">
+        </div>  
+    </header>  
     <?php require_once './templates/header.php' ?>
 
         <?php if(isset($_SESSION['login'])): ?>

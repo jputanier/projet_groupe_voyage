@@ -14,11 +14,15 @@ body{
     /*margin-top: 10%;*/
 }
 
-footer{
-    font-size: 0.8em;
-    background-color: rgb(235, 238, 238);
-    border: 2px solid gray;
-    border-radius: 4px;
+
+#footer{
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    padding-top: 20px;
+    text-align: center;
+    background-color: #C5C5C5;
+    border-top: 2px solid #AAA;
 }
 
 .copieR{
@@ -26,9 +30,19 @@ footer{
     margin-bottom: 20px;
 }
 
-/* Page ville */
+/* concept et services */
 article{
-    color: white;
+    color: rgb(255, 255, 255);
+}
+
+/* Page ville */
+#color{
+    color: rgb(255, 255, 255);
+    text-align: justify;
+}
+
+#flex{
+    display: flex;
 }
 
 

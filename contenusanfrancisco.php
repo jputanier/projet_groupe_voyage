@@ -14,13 +14,17 @@
         <title>VOAYAJ, San Francisco</title>
     </head>
     <body>
-        <header></header>
+        <header>
+            <div class="text-center headeR">
+                <img src="./img/logo-voayaj.png" alt="logo voayaj">
+            </div>    
+        </header>
         <!-- nav-bar -->
         <?php require "./templates/header.html"?>
-        <main>
-            <?php require "./templates/"
-            <div id='overview'>
-                <p>
+        <main id="flex">
+            <?php require "./templates/san-francisco.html"?>
+            <div>
+                <p id="color" id='overview'>
                 San Francisco, officiellement ville et comté de San Francisco (en anglais : City and County of San Francisco), est une ville américaine et un comté de l'État de Californie. 
                 
                 Elle est située à l'extrémité nord de la péninsule de San Francisco, entre l'océan Pacifique à l'ouest et la baie de San Francisco à l'est. 
@@ -49,9 +53,9 @@
 
                 Troisième destination touristique préférée des Français aux États-Unis, la ville est célèbre pour le pont du Golden Gate, l'île et ancienne prison d'Alcatraz, Fisherman's Wharf, la Transamerica Pyramid, la Coit Tower, ses maisons victoriennes, ses cable cars et ses nombreuses collines découpées de rues en pente.
                 </p>
-            </div>
-            <div id='cuisine'>
-                <p>
+           
+
+                <p id="color" id='cuisine'>
                 Les Californiens, qui ont toujours eu le culte du corps, pratiquent avec conviction le régime eating healthy (manger sain). 
                 
                 Fans de bio (organic), ilssont aussi de plus en plus adeptes de cuisine vegan. 
@@ -70,9 +74,9 @@
                 
                 Reste que, si l’on peut manger sain et varié sur la côte, c’est en revanche moins le cas dans les grands espaces de la Californie intérieure, où le graillon des cow-boys reste encore la norme...
                 </p>
-            </div>
-            <div id='streetart'>
-                <p>
+            
+            
+                <p id="color" id='streetart'>
                 À San Francisco, il n’y a pas besoin d’aller très loin pour en trouver. 
                 
                 Quasiment à chaque coin de rue, on peut tomber sur un graffiti. 
@@ -81,9 +85,9 @@
                 
                 C’est presque difficile de trouver un mur “nu” !
                 </p>
-            </div>
-            <div id='thingstodo'>
-                <p>
+           
+            
+                <p id="color" id='thingstodo'>
                 San Francisco fait partie des seules villes américaines à avoir « une âme ». 
                 
                 C’est une ville très européenne qui saura vous séduire très vite. 
@@ -98,9 +102,9 @@
                 
                 Exemple de choses à faire à San Francisco : visiter Le Golden Gate Bridge, Le Fisherman’s Wharf,  L’île et la prison d’Alcatraz.
                 </p>
-            </div>
-            <div id='nightlife'>
-                <p>
+           
+            
+                <p id="color" id='nightlife'>
                 La vie nocturne à San Francisco est aussi animée et variée que la ville elle-même. 
                 
                 Musique live, arts scéniques, boîtes de nuit ou bars à cocktails, quelle que soit votre envie du moment, vous trouverez de nombreux endroits pour vous divertir une fois la nuit tombée. 

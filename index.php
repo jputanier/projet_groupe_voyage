@@ -49,7 +49,7 @@
         <div id="bloc_page">
             <div id="bloc1" class="font_kingthings"><a href="./contenunewyork.php" class="titles">New York<br/>City</a></div>
             <div id="bloc2" class="font_america"><a href="./contenubeyrouth.php" class="titles">Beyrouth</a></div>
-            <div id="bloc3" class="font_desyrel"><a href="./contenusanfrancisco" class="titles">San Francisco</a></div>
+            <div id="bloc3" class="font_desyrel"><a href="./contenusanfrancisco.php" class="titles">San Francisco</a></div>
         </div>
     </main>
     <!-- footer -->

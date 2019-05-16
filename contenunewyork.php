@@ -14,12 +14,20 @@
         <title>VOAYAJ, New York</title>
     </head>
     <body>
-        <header></header>
+        <header>
+            <div class="text-center headeR">
+                <img src="./img/logo-voayaj.png" alt="logo voayaj">
+            </div>    
+        </header>
         <!-- nav-bar -->
         <?php require "./templates/header.html"?>
-        <main>
-            <div id='overview'>
-                <p>
+
+        <!-- main -->
+        <main id="flex">
+            <?php require "./templates/new-york.html"?>
+            <div>
+            
+                <p id="color" id="overview">
                 New York, officiellement nommée City of New York, connue également sous les noms et abréviations de New York City ou NYC, est la plus grande ville des États-Unis en termes d'habitants et l'une des plus importantes du continent américain. 
                 
                 Elle se situe dans le Nord-Est des États-Unis, sur la côte atlantique, à l'extrémité sud-est de l'État de New York. 
@@ -38,9 +46,8 @@
                 
                 De plus, le marché immobilier de Manhattan est parmi les plus chers dans le monde. 
                 </p>
-            </div>
-            <div id='cuisine'>
-                <p>
+
+                <p id="color" id="cuisine">
                 Dire que les Américains mangent mal et trop est très simpliste. 
                 
                 C'est encore malheureusement une réalité dans certains coins des États-Unis (de moins en moins cela dit), mais pas à New York qui a toujours été un cas à part et où vous ferez de vraies découvertes culinaires, à condition d’aller dans les bons endroits, bien sûr.
@@ -57,9 +64,9 @@
 
                 Un filon pour se faire une table de chef à moindres frais : la Restaurant Week. Deux fois dans l’année, en janvier-février et en juillet-août, un certain nombre de restaurants haut de gamme proposent, une semaine durant, des menus à 26 $ le midi et environ 42 $ le soir.
                 </p>
-            </div>
-            <div id='streetart'>
-                <p>
+
+            
+                <p id="color" id="streetart">
                 Le street art à New York, c’est toute une histoire, une religion presque dans cet immense temple de l’art urbain. 
                 
                 On ne compte plus la quantité et la qualité des œuvres qui habillent les façades. 
@@ -70,9 +77,9 @@
                 
                 On vous propose une balade street art pour découvrir la ville autrement.
                 </p>
-            </div>
-            <div id='thingstodo'>
-                <p>
+            
+
+                <p id="color" id='thingstodo'>
                 Comme tout new-yorkais vous le dira, il est impossible de découvrir tous les meilleurs endroits de cette grande et complexe ville, en une seule visite. 
                 
                 Et oui, cela fait partie de l’excitation à visiter New York : il y a toujours quelque chose de nouveau à découvrir. 
@@ -83,9 +90,9 @@
                 
                 Exemple de choses à faire à New York : visiter La Statue de la Liberté, Central Park, Times Square.
                 </p>
-            </div>
-            <div id='nightlife'>
-                <p>
+
+
+                <p id="color" id='nightlife'>
                 New York est une ville qui ne dort jamais, et vous non plus vous n’allez pas dormir. 
                 
                 Il y a tellement de choses à faire à New York qu’il vous faudra bien la journée et la nuit pour tout voir (et encore en repartant vous n’aurez pas tout vu). 
@@ -100,6 +107,7 @@
                 
                 Promenade nocturne, concerts et spectacles, rooftops romantiques, musée, bars… La liste est longue, et vous ne vous ennuierez pas !
                 </p>
+            </div>
         </main>
         <!-- footer -->
         <footer>
