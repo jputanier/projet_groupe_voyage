@@ -22,10 +22,11 @@
         <!-- nav-bar -->
         <?php require "./templates/header.html"?>
         <!-- main -->
-        <main id="flex">
-            <?php require "./templates/beyrouth.html"?>
-            <div>
-                <p id="color" id="overview">
+        <main class="flex">
+            <?php require "./templates/aside.html"?>
+        <article id="article">
+            <div id="color">
+                <p id="overview">
                     
                     Beyrouth (en arabe : بيروت / bayrūt) est la capitale du Liban et la ville la plus importante du pays. 
 
@@ -45,7 +46,7 @@
                 </p>
             
             
-                <p id="color" id="cuisine">
+                <p id="cuisine">
                     Il était déjà fait mention dans la Bible que le pays de Canaan, qui est l’actuel Liban, proposait une gastronomie d’une grande finesse et d’une grande variété grâce à son merveilleux climat méditerranéen, qui lui permet d’avoir tout au long de l’année des fruits et légumes frais en abondance.
 
                     La cuisine libanaise s’est enrichie de saveurs nouvelles venues d'ailleurs et elle a, au fil du temps, affiné les plats basiques, d’origine montagnarde, pour atteindre un grand raffinement.
@@ -62,7 +63,7 @@
                 </p>
             
             
-                <p id="color" id="streetart">
+                <p id="streetart">
                     C’est l’un des premiers aperçus de la capitale pour les passagers qui atterrissent à Beyrouth, au Liban. 
                     
                     À quelques centaines de mètres de l’aéroport, un îlot de maisons aux façades multicolores occupent le bord de mer. 
@@ -73,7 +74,7 @@
                 </p>
             
             
-                <p id="color" id="thingstodo">
+                <p id="thingstodo">
                     Visiter Beyrouth, c’est un peu comme visiter plusieurs villes, voir plusieurs pays en un ! 
                     
                     En une seule journée, vous passez des magasins de luxe, aux échoppes plus traditionnelles, de quartier chrétien au quartier musulman, puis arménien, de bâtiments tout neufs au bord de la marina aux bâtiments abandonnés, des graffiti, « Crimes Never Ends in Beirut» à des expo contemporaines où les pièces d’art sont faîtes en rouleau de pièce de monnaie, de cafés traditionnels aux bars à cocktail les plus tendances… 
@@ -96,7 +97,7 @@
 
                 </p>
            
-                <p id="color" id="nightlife">
+                <p id="nightlife">
                     Beyrouth est une ville dynamique et chaleureuse. 
                     
                     La ville est réputée pour sa vie nocturne, elle héberge de nombreuses discothèques, boîtes de nuit et pubs dans les quartiers Monnot, Verdun, Hamra, Gemmayzé et sur les corniches du bord de mer. 
@@ -108,6 +109,13 @@
                     Fumer est très commun à Beyrouth, les restaurants ont des zones fumeurs, assurez-vous de demander si un restaurant est fumeur ou non, et de demander une table non-fumeur si vous ne voulez pas vous asseoir autour de fumeurs.
                 </p>
             </div>
+        </article>
+        <div id="div_choisir">
+            <div>
+                <div><button id="close_choisir">X</button></div>
+            </div>
+            <p>Lorem io illum repudiandae pariatur officiis.</p>
+        </div>
         </main>
         <!-- footer -->
         <footer>
@@ -117,5 +125,6 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="./js/main.js"></script>
     </body>
 </html>
