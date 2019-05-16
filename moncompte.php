@@ -44,7 +44,7 @@ session_start();
             </div>
         <?php endif ?>
 </header>
-<?php require "./templates/header.php"?>
+<?php require "./templates/header.html"?>
 <main id="moncompte_body">
     <h1>Mon Compte</h1>
     <p>Bonjour <?php echo $_SESSION['nom'] ?></p>

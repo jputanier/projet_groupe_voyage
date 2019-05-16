@@ -19,7 +19,7 @@ require_once './controllers/getUsers.php';
             <img src="./img/logo-voayaj.png" alt="logo voayaj">
         </div>
     </header>
-    <?php require_once './templates/header.php' ?>
+    <?php require_once './templates/header.html' ?>
     <div id="div_courriel">
 
         <form action="./controllers/newUser.php" method="POST" id="form_login">

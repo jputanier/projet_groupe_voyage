@@ -32,7 +32,7 @@ session_start();
                             <i class="fas fa-user-times logo_user"></i>
                             <figcaption>Déconnection</figcaption>
                         </figure></a>
-                    </div>  
+                    </div>
 
         <?php else: ?>
             <div id="div_logo_user"><a href="./inscription.php">
@@ -52,13 +52,13 @@ session_start();
         
     </div>
     <!-- nav-bar -->
-    <?php require "./templates/header.php"?>
+    <?php require "./templates/header.html"?>
     <!-- main -->
     <main>
         <div id="bloc_page">
-            <div id="bloc1" class="font_kingthings"><a href="/" class="titles">New York<br/>City</a></div>
-            <div id="bloc2" class="font_america"><a href="/" class="titles">* Beyrouth *</a></div>
-            <div id="bloc3" class="font_desyrel"><a href="/" class="titles">San Francisco</a></div>
+            <div id="bloc1" class="font_kingthings"><a href="./contenunewyork.php" class="titles">New York<br/>City</a></div>
+            <div id="bloc2" class="font_america"><a href="./contenubeyrouth.php" class="titles">* Beyrouth *</a></div>
+            <div id="bloc3" class="font_desyrel"><a href="./contenusanfrancisco.php" class="titles">San Francisco</a></div>
         </div>
     </main>
     <!-- footer -->
