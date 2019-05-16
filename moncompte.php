@@ -1,6 +1,7 @@
 <?php
 session_start();
- ?>
+?>
+ 
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -20,28 +21,14 @@ session_start();
         <div class="text-center headeR">
             <img src="./img/logo-voayaj.png" alt="logo voayaj">
         </div>
-        <?php if(isset($_SESSION['login'])): ?>
-                <?php if($_SESSION['login'] == "login" && $_SESSION['password'] == "pass"): ?>
+        <?php if(isset($_SESSION['courriel'])): ?>
+
                     <div id="div_logo_user"><a href="./controllers/deconnection.php">
                         <figure>
                             <i class="fas fa-user-times logo_user"></i>
                             <figcaption>Déconnection</figcaption>
                         </figure></a>
-                    </div>  
-                <?php else: ?>
-                    <div id="div_logo_user"><a href="./inscription.php">
-                        <figure>
-                            <i class="fas fa-user-plus logo_user"></i>
-                            <figcaption>Inscription</figcaption>
-                        </figure></a>
-                    </div>
-                    <div id="div_logo_user"><a href="./login.php">
-                        <figure>
-                            <i class="fas fa-user logo_user"></i>
-                            <figcaption>Connection</figcaption>
-                        </figure></a>
-                    </div>
-                <?php endif ?>
+                    </div> 
         <?php else: ?>
             <div id="div_logo_user"><a href="./inscription.php">
                     <figure>
@@ -58,10 +45,52 @@ session_start();
         <?php endif ?>
 </header>
 <?php require "./templates/header.php"?>
-<main>
+<main id="moncompte_body">
     <h1>Mon Compte</h1>
-    <p>Bonjour <?php echo $_SESSION['login'] ?></p>
-    <p>Mes choix de voyages:</p>
+    <p>Bonjour <?php echo $_SESSION['nom'] ?></p>
+    <p>Ici, vous pourrez modifier ou supprimer vos paramètres de compte :</p>
+    <div>
+        <div>
+            <form action="./controllers/updateCourriel.php" method="POST">
+                <input type="hidden" name="id" value="<?php echo $_SESSION['id'] ?>">
+
+                <label for="courriel">courriel :</label>
+                <input type="text" name="courriel" value="<?= $_SESSION['courriel'] ?>">
+                <input type="submit" value="U">
+            </form>
+
+            <form action="./controllers/updateMdp.php" method="POST">
+                <input type="hidden" name="id" value="<?php echo $_SESSION['id'] ?>">
+                <label for="mdp">Mot de passe :</label>
+                <input type="text" name="mdp" value="<?= $_SESSION['password'] ?>">
+                <input type="submit" value="U">
+            </form>
+            
+            <form action="./controllers/updateChoice.php" method="POST">
+            <input type="hidden" name="id" value="<?php echo $_SESSION['id'] ?>">
+
+                <label for="datezero">Date de départ :</label>
+                <input type="number" name="datezero" value="<?= $_SESSION['datezero'] ?>">
+            
+                <label for="datefin">Date de fin :</label>
+                <input type="number" name="datefin" value="<?= $_SESSION['datefin'] ?>">
+        
+                <label for="ami">Accompagnateurs :</label>
+                <input type="number" name="ami" value="<?= $_SESSION['ami'] ?>">
+                <input type="submit" value="U">
+            </form>
+
+            <div><p>Supprimer l'itinéraire:<button>X</button></p></div>
+
+            <form action="./controllers/deleteUser.php" method="POST">
+                <label for="nom">Supprimer mon compte :</label>
+                <input type="text" name="nom" value="<?= $_SESSION['nom'] ?>">
+                <input type="submit" value="X">
+            </form>
+
+        </div>
+    </div>
+
 </main>
 
 <?php require "./templates/footer.html"?>

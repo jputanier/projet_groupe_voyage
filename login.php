@@ -1,4 +1,5 @@
-<?php session_start(); ?>
+<?php session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,10 +18,10 @@
         </div>
     </header>
     <?php require_once './templates/header.php' ?>
-<div id="div_login">
+<div id="div_courriel">
     <form action="./controllers/connection.php" method="POST" id="form_login">
-        <label for="login">Pseudo</label>
-        <input type="text" name="login" >
+        <label for="courriel">Mail</label>
+        <input type="text" name="courriel" >
 
         <label for="password">Mot de passe</label>
         <input type="password" name="password" >

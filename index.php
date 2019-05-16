@@ -1,6 +1,6 @@
 <?php
 session_start();
- ?>
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -20,8 +20,7 @@ session_start();
         <div class="text-center headeR">
             <img src="./img/logo-voayaj.png" alt="logo voayaj">
         </div>
-        <?php if(isset($_SESSION['login'])): ?>
-                <?php if($_SESSION['login'] == "login" && $_SESSION['password'] == "pass"): ?>
+        <?php if(isset($_SESSION['courriel'])): ?>
                     <div id="div_logo_user"><a href="./moncompte.php">
                         <figure>
                             <i class="fas fa-user-cog logo_user"></i>
@@ -34,20 +33,7 @@ session_start();
                             <figcaption>Déconnection</figcaption>
                         </figure></a>
                     </div>  
-                <?php else: ?>
-                    <div id="div_logo_user"><a href="./inscription.php">
-                        <figure>
-                            <i class="fas fa-user-plus logo_user"></i>
-                            <figcaption>Inscription</figcaption>
-                        </figure></a>
-                    </div>
-                    <div id="div_logo_user"><a href="./login.php">
-                        <figure>
-                            <i class="fas fa-user logo_user"></i>
-                            <figcaption>Connection</figcaption>
-                        </figure></a>
-                    </div>
-                <?php endif ?>
+
         <?php else: ?>
             <div id="div_logo_user"><a href="./inscription.php">
                     <figure>

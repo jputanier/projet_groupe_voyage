@@ -1,4 +1,7 @@
-<?php session_start(); ?>
+<?php session_start();
+
+require_once './controllers/getUsers.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,20 +20,21 @@
         </div>
     </header>
     <?php require_once './templates/header.php' ?>
-<div id="div_login">
-    <form action="./controllers/connection.php" method="POST" id="form_login">
-        <label for="login">Pseudo</label>
-        <input type="text" name="login" >
+    <div id="div_courriel">
 
-        <label for="password">Mot de passe</label>
-        <input type="password" name="password">
-        
-        <label for="mail">E-mail</label>
-        <input type="mail" name="mail">
+        <form action="./controllers/newUser.php" method="POST" id="form_login">
+            <label for="nom">Nom</label>
+            <input type="text" name="nom" >
 
-        <input type="submit" value="Envoyer">
-    </form>
-</div>
-<?php require "./templates/footer.html"?>
+            <label for="mdp">Mot de passe</label>
+            <input type="password" name="mdp">
+            
+            <label for="courriel">E-mail</label>
+            <input type="text" name="courriel">
+
+            <input type="submit" value="Envoyer">
+        </form>
+    </div>
+    <?php require "./templates/footer.html"?>
 </body>
 </html>

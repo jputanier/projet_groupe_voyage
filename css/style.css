@@ -199,7 +199,12 @@ main {
     background-color: beige;
     margin: auto;
 }
+/* Page mon compte */
+#moncompte_body {
+    color: white;
+}
 
+/* Media querries */
 
 @media (max-width: 1000px) {
 main {
