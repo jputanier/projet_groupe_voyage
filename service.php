@@ -22,11 +22,9 @@
     <!-- main -->
     <main>
         <article>
+            <br>
             <p>
                 Nos services sont à la carte : vous choisissisez, nous vous obligeons. Notre valeur ajoutée : l'humain. Grâce à nos VOAJEURS, nous vous assurons un voyage en douceur, sans accroc et en totale immersion : les VOAYAJEURS ont tous une grande connaissance des pays que nous vous proposons de visiter, formé au tourisme et à l'accompagnement des groupes à l'étranger, ils parlent ous plusieurs langues et sauront être discrets, mais toujours disponibles pour vous. Grâce à leurs vécus dans les lieux que vous allez visiter, ils disposent d'un large éventail de personnes-ressources au sein du pays, pour vous emmenez durant tout votre voyage dans les lieux les plus adaptés à vos attentes...
-            </p><br>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mauris purus, sagittis vitae nisl id, placerat ullamcorper urna. Aenean a nunc a enim auctor posuere non vel felis. Maecenas ut interdum mi. Aenean aliquam dui quis tristique feugiat. Cras sed risus semper, dictum metus id, tempor eros. Cras consectetur orci nec augue consectetur, sed cursus tortor auctor. Nullam interdum dignissim venenatis. Suspendisse odio eros, pulvinar vitae ex et, ullamcorper dictum justo. Nunc consectetur sagittis augue, at sodales nisl fermentum porta. Donec fermentum gravida augue quis sollicitudin. In hac habitasse platea dictumst. Sed feugiat eros a scelerisque semper.
             </p><br>
             <p>
                 L'option de voyage GASTRONOMIE est centrée sur la découverte d'un pays, d'une ville, à travers sa cuisine, moderne comme traditionnelle, c'est vous qui choisissez. Entre les différents repas, nous pouvons vous proposez des itinéraires de découverte ou vous donnez des listes complètes et mises à jour des différentes activités possibles.

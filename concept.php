@@ -22,11 +22,9 @@
     <!-- main -->
     <main>
         <article>
+            <br>
             <p>
                 VOAYAJ est une agence de voyages spécialisée dans les voyages à la carte. L'idée est de proposer des voyages courts, pour des groupes réduits, vraiment adaptés à vos besoins. Tous les groupes seront accompagnés par un VOYAJEUR (Jérémy, Lakdar, Pascal, Raphaël...), connaissant parfaitement le pays et toutes les subtilités des endroits visités, dans l'optique d'une immersion douce et totale... Les voyages se concentrent essentiellement sur la découverte d'un pays à travers le prisme de la gastronomie, de la culture - particulièrement la culture urbaine - et des lieux emblématiques ayant marqué le pays. Les voyages VOAYAJ sont parfaits pour des escapades entre amoureux pour un week-end dans une ville romantique, pour le plaisir de partir avec des amis et de faire la fête dans des endroits originaux, prestigieux ou inattendus.
-            </p><br>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mauris purus, sagittis vitae nisl id, placerat ullamcorper urna. Aenean a nunc a enim auctor posuere non vel felis. Maecenas ut interdum mi. Aenean aliquam dui quis tristique feugiat. Cras sed risus semper, dictum metus id, tempor eros. Cras consectetur orci nec augue consectetur, sed cursus tortor auctor. Nullam interdum dignissim venenatis. Suspendisse odio eros, pulvinar vitae ex et, ullamcorper dictum justo. Nunc consectetur sagittis augue, at sodales nisl fermentum porta. Donec fermentum gravida augue quis sollicitudin. In hac habitasse platea dictumst. Sed feugiat eros a scelerisque semper.
             </p><br>
             <p>
                 Dans un souci de confort, nous nous occuperons de toutes les démarches administratives liées aux visas, vous n'aurez à vous inquiétez de rien. Votre seul souci : bien choisir votre voyage, les différentes options que nous pouvons vous offir, nous nous occupons de tous le reste !
@@ -35,14 +33,6 @@
                 Merci de nous faire confiance, à très bientôt sur les voyages VOAYAJ ;P
             </p>
         </article>
-    <div class=row>
-        <div class=col-xs-5 col-md-3 col-lg-1 centreVerticalement >
-            <div style=height:10em;border:1px solid red>Big</div>
-            </div><!---->
-            <div class=col-xs-5 col-md-7 col-lg-9 centreVerticalement >
-            <div style=height:3em;border:1px solid #F00>Small</div>
-        </div>
-    </div>
     </main>
     <!-- footer -->
     <?php require "./templates/footer.html"?>
