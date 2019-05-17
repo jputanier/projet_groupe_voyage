@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -14,9 +15,12 @@
 </head>
 <body>
     <!-- header -->
-    <div class="text-center headeR">
-        <img src="./img/logo-voayaj.png" alt="logo voayaj">
-    </div>
+    <header>
+        <div class="text-center headeR">
+            <img src="./img/logo_voyages_voayaj.png" alt="logo voayaj">            
+        </div>
+        <?php require_once './templates/connectDisconnect.php' ?>
+    </header>
     <!-- nav-bar -->
     <?php require "./templates/header.html"?>
     <!-- main -->

@@ -1,5 +1,6 @@
 <?php
 session_start();
+
 ?>
  
 
@@ -19,7 +20,7 @@ session_start();
 <body>
 <header>
         <div class="text-center headeR">
-            <img src="./img/logo-voayaj.png" alt="logo voayaj">
+        <img src="./img/logo_voyages_voayaj.png" alt="logo voayaj">            
         </div>
         <?php if(isset($_SESSION['courriel'])): ?>
 
@@ -45,11 +46,23 @@ session_start();
         <?php endif ?>
 </header>
 <?php require "./templates/header.html"?>
+
 <main id="moncompte_body">
-    <h1>Mon Compte</h1>
-    <p>Bonjour <?php echo $_SESSION['nom'] ?></p>
-    <p>Ici, vous pourrez modifier ou supprimer vos paramètres de compte :</p>
-    <div>
+    <div id="form">
+        <h1>Mon Compte</h1>
+        <p>Bonjour <?php echo $_SESSION['nom'] ?></p>
+        <?php if($_SESSION['choix'] == 'tartiflette'): ?>
+        <p>Vous n'avez pas choisi de ville.</p>
+        <?php else: ?>
+        <p>Vous avez choisi la ville de <?php echo $_SESSION['choix'] ?>.</p>
+        <?php endif ?>
+        <form method="POST" action="./controllers/majVille.php">
+        <input type="hidden" name="id" value="<?php echo $_SESSION['id'] ?>">
+                    <input type="hidden" name="choix" value="tartiflette">
+                    <input type="submit" value="X">
+        </form>
+            <p>Ici, vous pourrez modifier ou supprimer vos paramètres de compte :</p>
+
         <div>
             <form action="./controllers/updateCourriel.php" method="POST">
                 <input type="hidden" name="id" value="<?php echo $_SESSION['id'] ?>">
@@ -66,21 +79,20 @@ session_start();
                 <input type="submit" value="U">
             </form>
             
-            <form action="./controllers/updateChoice.php" method="POST">
+            <form action="./controllers/updateChoice.php" method="POST" class="date_form">
             <input type="hidden" name="id" value="<?php echo $_SESSION['id'] ?>">
 
                 <label for="datezero">Date de départ :</label>
-                <input type="number" name="datezero" value="<?= $_SESSION['datezero'] ?>">
+                <input type="text" name="datezero" value="<?= $_SESSION['datezero'] ?>">
             
                 <label for="datefin">Date de fin :</label>
-                <input type="number" name="datefin" value="<?= $_SESSION['datefin'] ?>">
+                <input type="text" name="datefin" value="<?= $_SESSION['datefin'] ?>">
         
                 <label for="ami">Accompagnateurs :</label>
                 <input type="number" name="ami" value="<?= $_SESSION['ami'] ?>">
                 <input type="submit" value="U">
             </form>
 
-            <div><p>Supprimer l'itinéraire:<button>X</button></p></div>
 
             <form action="./controllers/deleteUser.php" method="POST">
                 <label for="nom">Supprimer mon compte :</label>

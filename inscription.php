@@ -16,24 +16,25 @@ require_once './controllers/getUsers.php';
 <body>
     <header>
         <div class="text-center headeR">
-            <img src="./img/logo-voayaj.png" alt="logo voayaj">
+            <img src="./img/logo_voyages_voayaj.png" alt="logo voayaj">             
         </div>
     </header>
     <?php require_once './templates/header.html' ?>
     <div id="div_courriel">
+        <div id="form">
+            <form action="./controllers/newUser.php" method="POST" id="form_login">
+                <label for="nom">Nom</label>
+                <input type="text" name="nom" >
 
-        <form action="./controllers/newUser.php" method="POST" id="form_login">
-            <label for="nom">Nom</label>
-            <input type="text" name="nom" >
+                <label for="mdp">Mot de passe</label>
+                <input type="password" name="mdp">
+                
+                <label for="courriel">E-mail</label>
+                <input type="text" name="courriel">
 
-            <label for="mdp">Mot de passe</label>
-            <input type="password" name="mdp">
-            
-            <label for="courriel">E-mail</label>
-            <input type="text" name="courriel">
-
-            <input type="submit" value="Envoyer">
-        </form>
+                <input type="submit" value="Envoyer">
+            </form>
+        </div>
     </div>
     <?php require "./templates/footer.html"?>
 </body>

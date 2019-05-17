@@ -1,4 +1,4 @@
-<?php ?>
+<?php session_start(); ?>
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -16,16 +16,19 @@
     <body>
         <header>
             <div class="text-center headeR">
-                <img src="./img/logo-voayaj.png" alt="logo voayaj">
-            </div>    
+                <img src="./img/logo_voyages_voayaj.png" alt="logo voayaj">                
+            </div>
+        <?php require_once './templates/connectDisconnect.php' ?>
+
         </header>
         <!-- nav-bar -->
         <?php require "./templates/header.html"?>
         <!-- main -->
-        <main class="flex">
+        <main class="flex main_contenu">
             <?php require "./templates/aside.html"?>
         <article id="article">
             <div id="color">
+            <p><img src="./img/beirut.jpg" alt="nyc" class="picture_content"></p>
                 <p id="overview">
                     
                     Beyrouth (en arabe : بيروت / bayrūt) est la capitale du Liban et la ville la plus importante du pays. 
@@ -111,11 +114,29 @@
             </div>
         </article>
         <div id="div_choisir">
-            <div>
-                <div><button id="close_choisir">X</button></div>
+                <div class="div_choisir_css">
+                    <div>
+                        <div class="flex"><button id="close_choisir">X</button></div>
+                    </div>
+                    <p>Vous allez partir à Beyrouth !</p>
+                    <p>Veuillez inscrire ci-dessous vos dates de départ et de retour, et de nous renseigner le nombre de personnes qui vous accompagneront.</p>
+                    <p>Merci de nous avoir choisi pour voayajer avec nous.</p>
+                    <form action="./controllers/createChoice.php" method="POST">
+                        <input type="hidden" name="id">
+
+                        <label for="datezero">Date de début :</label>
+                        <input type="number" name="datezero">
+
+                        <label for="datefin">Date de fin :</label>
+                        <input type="number" name="datefin">
+
+                        <label for="ami">Nombre d'accompagnateurs :</label>
+                        <input type="number" name="ami">
+
+                        <input type="hidden" name="choix" value="Beyrouth">
+                        <input type="submit" value="Valider">
+                    </form>
             </div>
-            <p>Lorem io illum repudiandae pariatur officiis.</p>
-        </div>
         </main>
         <!-- footer -->
         <footer>

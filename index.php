@@ -18,47 +18,20 @@ session_start();
     <!-- header -->
     <header>
         <div class="text-center headeR">
-            <img src="./img/logo-voayaj.png" alt="logo voayaj">
+            <img src="./img/logo_voyages_voayaj.png" alt="logo voayaj">
         </div>
-        <?php if(isset($_SESSION['courriel'])): ?>
-                    <div id="div_logo_user"><a href="./moncompte.php">
-                        <figure>
-                            <i class="fas fa-user-cog logo_user"></i>
-                            <figcaption>Mon compte</figcaption>
-                        </figure></a>
-                    </div> 
-                    <div id="div_logo_user"><a href="./controllers/deconnection.php">
-                        <figure>
-                            <i class="fas fa-user-times logo_user"></i>
-                            <figcaption>Déconnection</figcaption>
-                        </figure></a>
-                    </div>
+    <?php require_once './templates/connectDisconnect.php' ?>
 
-        <?php else: ?>
-            <div id="div_logo_user"><a href="./inscription.php">
-                    <figure>
-                        <i class="fas fa-user-plus logo_user"></i>
-                        <figcaption>Inscription</figcaption>
-                    </figure></a>
-            </div>
-            <div id="div_logo_user"><a href="./login.php">
-                <figure>
-                    <i class="fas fa-user logo_user"></i>
-                    <figcaption>Connection</figcaption>
-                </figure></a>
-            </div>
-        <?php endif ?>
     </header>
-        
     </div>
     <!-- nav-bar -->
     <?php require "./templates/header.html"?>
     <!-- main -->
     <main>
         <div id="bloc_page">
-            <div id="bloc1" class="font_kingthings"><a href="./contenunewyork.php" class="titles">New York<br/>City</a></div>
+            <div id="bloc1" class="font_kingthings"><a href="./contenunewyork.php" class="titles">* New York *<br/>City</a></div>
             <div id="bloc2" class="font_america"><a href="./contenubeyrouth.php" class="titles">* Beyrouth *</a></div>
-            <div id="bloc3" class="font_desyrel"><a href="./contenusanfrancisco.php" class="titles">San Francisco</a></div>
+            <div id="bloc3" class="font_desyrel"><a href="./contenusanfrancisco.php" class="titles">* San Francisco *</a></div>
         </div>
     </main>
     <!-- footer -->

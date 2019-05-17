@@ -14,20 +14,22 @@
 <body>
     <header>
         <div class="text-center headeR">
-            <img src="./img/logo-voayaj.png" alt="logo voayaj">
+            <img src="./img/logo_voyages_voayaj.png" alt="logo voayaj">
         </div>
     </header>
     <?php require_once './templates/header.html' ?>
 <div id="div_courriel">
-    <form action="./controllers/connection.php" method="POST" id="form_login">
-        <label for="courriel">Mail</label>
-        <input type="text" name="courriel" >
+    <div id="form">
+        <form action="./controllers/connection.php" method="POST" id="form_login">
+            <label for="courriel">Mail</label>
+            <input type="text" name="courriel" >
 
-        <label for="password">Mot de passe</label>
-        <input type="password" name="password" >
+            <label for="password">Mot de passe</label>
+            <input type="password" name="password" >
 
-        <input type="submit" value="Envoyer">
-    </form>
+            <input type="submit" value="Envoyer">
+        </form>
+    </div>
 </div>
 <?php require "./templates/footer.html"?>
 </body>

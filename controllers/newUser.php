@@ -4,7 +4,7 @@ $req = $pdo->prepare('INSERT INTO utilisateurs(nom, mdp, courriel, choix, dateze
 $req->bindParam(':nom', $_POST['nom']);
 $req->bindParam(':mdp', $_POST['mdp']);
 $req->bindParam(':courriel', $_POST['courriel']);
-$req->bindValue(':choix', 0);
+$req->bindValue(':choix', 'tartiflette');
 $req->bindValue(':datezero', 0);
 $req->bindValue(':datefin', 0);
 $req->bindValue(':ami', 0);
